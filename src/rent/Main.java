@@ -7,7 +7,7 @@ package rent;
 
 /**
  *
- * @author kobinath
+ * @author 
  */
 public class Main extends javax.swing.JFrame {
 

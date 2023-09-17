@@ -41,7 +41,7 @@ public class Login extends javax.swing.JFrame {
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
         jLabel3.setFont(new java.awt.Font("Tahoma", 1, 36)); // NOI18N
-        jLabel3.setText("Car Retail");
+        jLabel3.setText("Car Hire");
 
         jPanel1.setBorder(javax.swing.BorderFactory.createTitledBorder("Login"));
 
@@ -132,7 +132,7 @@ public class Login extends javax.swing.JFrame {
 
         String user = txtuser.getText().trim();
         String pass = txtpass.getText().trim();
-        if(user.equals("raja") && pass.equals("123"))            
+        if(user.equals("admin") && pass.equals("123"))            
         {
             Main m = new Main();
             this.hide();
@@ -140,7 +140,7 @@ public class Login extends javax.swing.JFrame {
         }
         else
         {
-            JOptionPane.showMessageDialog(this,"Username and Password do not match");
+            JOptionPane.showMessageDialog(this,"Username and Password Incorrect.Please enter again");
         } 
 
     }//GEN-LAST:event_jButton1ActionPerformed
